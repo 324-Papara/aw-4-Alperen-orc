@@ -1,0 +1,16 @@
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\bin\Debug\net8.0\Para.Schema.deps.json
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\bin\Debug\net8.0\Para.Schema.dll
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\bin\Debug\net8.0\Para.Schema.pdb
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\bin\Debug\net8.0\Para.Base.dll
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\bin\Debug\net8.0\Para.Base.pdb
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.csproj.AssemblyReference.cache
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.AssemblyInfoInputs.cache
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.AssemblyInfo.cs
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.csproj.CoreCompileInputs.cache
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.sourcelink.json
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.csproj.CopyComplete
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.dll
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\refint\Para.Schema.dll
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\Para.Schema.pdb
+C:\Users\Alperen\Source\Repos\PaparaHafta4\Para.Api\Para.Schema\obj\Debug\net8.0\ref\Para.Schema.dll
