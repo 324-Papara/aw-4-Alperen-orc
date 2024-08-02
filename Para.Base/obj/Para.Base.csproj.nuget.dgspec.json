@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj": {}
+    "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj": {
+    "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj",
+        "projectUniqueName": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj",
         "projectName": "Para.Base",
-        "projectPath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj",
+        "projectPath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj",
         "packagesPath": "C:\\Users\\Alperen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Base\\obj\\",
+        "outputPath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

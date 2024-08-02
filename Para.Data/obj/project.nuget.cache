@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KIWcRFciDow+sh3NrfK+pIbyFV6C6mBorrI2yO/yov1aQy6+K2e6wPw772TpPco5qcABTDm7Au07MyeMvcrOew==",
+  "dgSpecHash": "F1GIXfqX8od80n74dxXbL068fmwgbsdcJ3wqseYpI8bKpOeA9hJDRqp5WSXT7Lsrz54T4iKFOrGmrhgg2SAPpA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Data\\Para.Data.csproj",
+  "projectFilePath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Data\\Para.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alperen\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Alperen\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -132,7 +132,8 @@ public class Startup
             .UseSqlServerStorage(Configuration.GetConnectionString("HangfireConnection")));
         services.AddHangfireServer();
 
-        services.AddSingleton<RabbitMQService>();
+        //Bağımlılıklar eklenir.
+        services.AddSingleton<RabbitMqService>();
         services.AddSingleton<EmailService>();
 
         services.AddScoped<ISessionContext>(provider =>

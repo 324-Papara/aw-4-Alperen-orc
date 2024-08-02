@@ -10803,11 +10803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Api\\Para.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Api\\Para.Api.csproj",
       "projectName": "Para.Api",
-      "projectPath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Api\\Para.Api.csproj",
+      "projectPath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Api\\Para.Api.csproj",
       "packagesPath": "C:\\Users\\Alperen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Api\\obj\\",
+      "outputPath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -10829,17 +10829,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj": {
-              "projectPath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj"
+            "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj": {
+              "projectPath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Base\\Para.Base.csproj"
             },
-            "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Bussiness\\Para.Bussiness.csproj": {
-              "projectPath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Bussiness\\Para.Bussiness.csproj"
+            "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Bussiness\\Para.Bussiness.csproj": {
+              "projectPath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Bussiness\\Para.Bussiness.csproj"
             },
-            "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Data\\Para.Data.csproj": {
-              "projectPath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Data\\Para.Data.csproj"
+            "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Data\\Para.Data.csproj": {
+              "projectPath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Data\\Para.Data.csproj"
             },
-            "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Schema\\Para.Schema.csproj": {
-              "projectPath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Schema\\Para.Schema.csproj"
+            "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Schema\\Para.Schema.csproj": {
+              "projectPath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Schema\\Para.Schema.csproj"
             }
           }
         }

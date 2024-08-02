@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
-using Para.Api.Model;
 using Para.Api.Service;
+using Para.Data.Domain;
 
 namespace Para.Api.Controllers
 {
@@ -9,9 +9,9 @@ namespace Para.Api.Controllers
     [Route("api/[controller]")]
     public class EmailController : ControllerBase
     {
-        private readonly RabbitMQService _rabbitMQService;
+        private readonly RabbitMqService _rabbitMQService;
 
-        public EmailController(RabbitMQService rabbitMQService)
+        public EmailController(RabbitMqService rabbitMQService)
         {
             _rabbitMQService = rabbitMQService;
         }

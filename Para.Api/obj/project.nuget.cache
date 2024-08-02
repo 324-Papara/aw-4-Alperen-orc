@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TJYro3f0V7lop/OWmr3yAiqUyDoplaKOUS8z71M20VeerJx8sThyRo6Lqgp2WyiYwkIk09MkvEYrK9GnHNgGxg==",
+  "dgSpecHash": "SXrIoodBF3Yvp5tfT2WLR+/hJUd8jPEFu4veBZkQ3cN6S0k8pzuLJO852zq2CU4lAzJl/GEv5sEwwWFUGdP1Gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Api\\Para.Api.csproj",
+  "projectFilePath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Api\\Para.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alperen\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Alperen\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

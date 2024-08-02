@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R6Atik1ojjvjfVf4K3U8qikTkZ12HEXYT9LkTKKRnl5sw3bpnmBS1wZEc5h//EiTBgCqqKasL1cyyKUsZ96K7w==",
+  "dgSpecHash": "I0frvujfDvTJjgFzi/uhR09IN147ZY+NRXgsF50/EbhglTvo5hWUG8GRl4gVWXKblEervr6v1kLNHhKkhOjFZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Schema\\Para.Schema.csproj",
+  "projectFilePath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Schema\\Para.Schema.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alperen\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Alperen\\.nuget\\packages\\entityframework\\6.3.0\\entityframework.6.3.0.nupkg.sha512",

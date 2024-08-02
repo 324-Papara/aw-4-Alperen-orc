@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3girONWEIJOVZdEe89SWyz3VK2SJYtaM1eYWUWo7cs9Aca1FgIMPKbwy9iu/FAZNYna33VMgcNIBGTwJaT8fGQ==",
+  "dgSpecHash": "x2+2KjBQbWfapSZUHfXqEcOp8PRZQEyLH3vWRU1xHY36nr5Svo2gl13m2DyWI+jaE8PPOPuXkqhoTmi9bDxl3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alperen\\Source\\Repos\\PaparaHafta4\\Para.Api\\Para.Bussiness\\Para.Bussiness.csproj",
+  "projectFilePath": "C:\\Users\\Alperen\\source\\repos\\PaparaHafta4\\Para.Api\\Para.Bussiness\\Para.Bussiness.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alperen\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Alperen\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿namespace Para.Api.Model;
+﻿namespace Para.Data.Domain;
 
 public class Email
 {

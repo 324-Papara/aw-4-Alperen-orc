@@ -1,62 +1,73 @@
-﻿using RabbitMQ.Client.Events;
+﻿using RabbitMQ.Client.Events; 
+using System.Net.Mail; 
+using System.Net; 
+using System.Text; 
+using Para.Data.Domain; 
+using Microsoft.Extensions.Configuration;
 using RabbitMQ.Client;
-using System.Net.Mail;
-using System.Net;
-using System.Text;
 using Newtonsoft.Json;
-using Para.Api.Model;
 
-namespace Para.Api.Service;
-
-public class EmailService
+namespace Para.Api.Service
 {
-    private readonly IConfiguration _configuration;
-
-    public EmailService(IConfiguration configuration)
+    public class EmailService
     {
-        _configuration = configuration;
-    }
+        private readonly IConfiguration _configuration; 
 
-    public void SendEmail(string to, string subject, string body)
-    {
-        var smtpClient = new SmtpClient(_configuration["Smtp:Host"])
+        public EmailService(IConfiguration configuration)
         {
-            Port = int.Parse(_configuration["Smtp:Port"]),
-            Credentials = new NetworkCredential(_configuration["Smtp:Username"], _configuration["Smtp:Password"]),
-            EnableSsl = true,
-        };
+            _configuration = configuration; 
+        }
 
-        var mailMessage = new MailMessage
+        public void SendEmail(string to, string subject, string body)
         {
-            From = new MailAddress(_configuration["Smtp:Username"]),
-            Subject = subject,
-            Body = body,
-            IsBodyHtml = true,
-        };
-        mailMessage.To.Add(to);
+            // SmtpClient nesnesi oluşturulur ve yapılandırma ayarlarından SMTP bilgileri alınır
+            var smtpClient = new SmtpClient(_configuration["Smtp:Host"])
+            {
+                Port = int.Parse(_configuration["Smtp:Port"]),
+                Credentials = new NetworkCredential(_configuration["Smtp:Username"], _configuration["Smtp:Password"]),
+                EnableSsl = true,
+            };
 
-        smtpClient.Send(mailMessage);
-    }
+            // Gönderilecek e-posta mesajı oluşturulur
+            var mailMessage = new MailMessage
+            {
+                From = new MailAddress(_configuration["Smtp:Username"]),
+                Subject = subject,
+                Body = body,
+                IsBodyHtml = true, 
+            };
+            mailMessage.To.Add(to); 
 
-    public void ProcessQueue()
-    {
-        var factory = new ConnectionFactory() { HostName = "localhost" };
-        using var connection = factory.CreateConnection();
-        using var channel = connection.CreateModel();
+            // E-posta gönderilir
+            smtpClient.Send(mailMessage);
+        }
 
-        channel.QueueDeclare(queue: "emailQueue", durable: true, exclusive: false, autoDelete: false, arguments: null);
-
-        var consumer = new EventingBasicConsumer(channel);
-        consumer.Received += (model, ea) =>
+        public void ProcessQueue()
         {
-            var body = ea.Body.ToArray();
-            var message = Encoding.UTF8.GetString(body);
-            var emailData = JsonConvert.DeserializeObject<Email>(message);
+            // RabbitMQ bağlantısı için ConnectionFactory nesnesi oluşturulur ve RabbitMQ sunucusu ayarlanır
+            var factory = new ConnectionFactory() { HostName = "localhost" };
+            using var connection = factory.CreateConnection(); // RabbitMQ sunucusuna bağlantı oluşturulur
 
-            SendEmail(emailData.To, emailData.Subject, emailData.Body);
-        };
+            using var channel = connection.CreateModel(); // Bağlantı üzerinden bir kanal oluşturulur
 
-        channel.BasicConsume(queue: "emailQueue", autoAck: true, consumer: consumer);
+            // Kanal üzerinden bir kuyruk oluşturulur. Bu kuyruk "emailQueue" olarak adlandırılır.
+
+            channel.QueueDeclare(queue: "emailQueue", durable: true, exclusive: false, autoDelete: false, arguments: null);
+
+            // EventingBasicConsumer nesnesi oluşturulur ve mesaj alındığında çalışacak olan event tanımlanır
+            var consumer = new EventingBasicConsumer(channel);
+            consumer.Received += (model, ea) =>
+            {
+                var body = ea.Body.ToArray(); 
+                var message = Encoding.UTF8.GetString(body); 
+                var emailData = JsonConvert.DeserializeObject<Email>(message); // Mesaj, Email nesnesine dönüştürülür
+
+                // Email gönderme işlemi gerçekleştirilir
+                SendEmail(emailData.To, emailData.Subject, emailData.Body);
+            };
+
+            // Tüketici kuyruktan mesajları tüketmeye başlar
+            channel.BasicConsume(queue: "emailQueue", autoAck: true, consumer: consumer);
+        }
     }
 }
-
